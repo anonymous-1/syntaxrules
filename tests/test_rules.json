@@ -1,0 +1,10 @@
+{
+    "lexicon": [
+	{"lexclass": "marry", "lemma": "mar*", "pos": "VBD"},
+	{"lexclass": "person", "lemma": ["john", "mary"]}
+    ],
+    "rules" : [
+	{"condition": "?m :lexclass \"marry\". ?a :lexclass \"person\"; :rel_nsubj ?m. ?b :pos \"NNP\"; :rel_dobj ?m.",
+	 "insert": "?a :marry ?b"}
+    ]
+}

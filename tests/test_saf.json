@@ -1,0 +1,72 @@
+{
+    "header": {
+        "format-version": "0.0",
+        "processed": [
+            {
+                "started": "2014-02-18T17:32:47.070520",
+                "module-version": "3.2.0",
+                "module": "corenlp"
+            }
+        ],
+        "format": "SAF"
+    },
+    "tokens": [
+        {
+            "word": "John",
+            "sentence": 1,
+            "pos": "NNP",
+            "lemma": "John",
+            "offset": "0",
+            "id": 1
+        },
+        {
+            "word": "married",
+            "sentence": 1,
+            "pos": "VBD",
+            "lemma": "marry",
+            "offset": "5",
+            "id": 2
+        },
+        {
+            "word": "Mary",
+            "sentence": 1,
+            "pos": "NNP",
+            "lemma": "Mary",
+            "offset": "13",
+            "id": 3
+        },
+        {
+            "word": "It",
+            "sentence": 2,
+            "pos": "NNP",
+            "lemma": "it",
+            "offset": "0",
+            "id": 4
+        },
+        {
+            "word": "rains",
+            "sentence": 2,
+            "pos": "VBD",
+            "lemma": "rain",
+            "offset": "3",
+            "id": 5
+        }
+    ],
+    "dependencies": [
+        {
+            "relation": "nsubj",
+            "parent": 2,
+            "child": 1
+        },
+        {
+            "relation": "dobj",
+            "parent": 2,
+            "child": 3
+        },
+        {
+            "relation": "nsubj",
+            "parent": 5,
+            "child": 4
+        }
+    ]
+}
