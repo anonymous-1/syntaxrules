@@ -16,7 +16,7 @@ This package depends on pygraphviz, which requires the development libraries
 for python and graphviz. On debian/ubuntu, use the following command (which
 will also install git, if needed):
 
-    sudo apt-get git install libgraphviz-dev python-dev
+    sudo apt-get install git graphviz libgraphviz-dev python-dev
 
 Then, install directly from github using pip:
 
